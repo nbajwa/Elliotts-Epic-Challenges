@@ -19,4 +19,19 @@ Now that you have you database it's time to do your views! Your client tells you
 * A Specific Page for each group/meeting that shows the Owner/ Leader (by profile pic), the description, and all of the members/ attedees (again, by profile pic). Your client has specified that they want the members to be in a 3-column layout.
 * A Profile page for each user that shows all their information
 
+
+While you're at it, why not add some basic CSS. Nothing fancy, just something to make the page look less boring.
+
 ##Release 2
+"Cool" your client says with Glee! What a wonderful app you have made for me! But alas, the pages they don't do anything. My clients can't create or join the groups or meetings.
+
+
+I can't keep rhyming...sorry...
+
+
+Okay, so your client wants you to make it so Users can create groups or meetings, giving them the appropriate powers for what they create (which means they can remove members/attendees, delete a group, and edit the name or description). On top of that Users have to be able to join and leave groups/ meetings, as well as, update their info, including their skills, from their profile page.
+
+
+But remember, only the owner/leader should be able to modify the group's info and only the specific user should be able to modify their skills or info.
+
+##Release 3
