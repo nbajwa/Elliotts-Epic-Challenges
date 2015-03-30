@@ -4,6 +4,9 @@ For this challenge you will have two hours to finish the following app. You can 
 
 You have graduated from Dev Bootcamp and are looking for work, but you have no money, so you start freelancing to make some extra cash on the side. A client approaches you and offers to hire you to build her foundation - The Ruby Group - a CRUD webapp so they can post about meetings and create work groups. Naturally as a poor, underfunded DBC grad you gladly take the job!
 
+
+Using the basic Skeleton above, create the app as your client has requested.
+
 ##Release 0
 To begin you have to get your associations straight, your client has specified a number of requirements for the database to have:
 * There needs to be three main tables - Users, Groups, and Meetings
@@ -34,4 +37,8 @@ Okay, so your client wants you to make it so Users can create groups or meetings
 
 But remember, only the owner/leader should be able to modify the group's info and only the specific user should be able to modify their skills or info.
 
-##Release 3
+##Release 3 - Millions of Users!
+So apparently the CRUD app you made has allowed the Ruby Group to grow from a small, Chicago group to a multinational organization that has constantly redefined what it means to pair program or something. But there's a problem...
+
+
+Your client calls you up again and tells you that the website simply has too much information to reload all of the time. She tells you about this new-fangled thing she heard of in the Ruby Group called AJAX and wants you to apply that to the group and meeting creation buttons, as well as any Edit functions on the Ruby Group website.
