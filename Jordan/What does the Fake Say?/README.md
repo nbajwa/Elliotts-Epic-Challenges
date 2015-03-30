@@ -1,6 +1,9 @@
 #What does the Fake Say?
 You know what's great? The Faker gem...especially the Faker.Company.catch_phrase and the Faker.Hacker.say_something_smart methods. They're hilarious. So hilarious that a client has actually approached you and offered you ten million dollars to make a sinatra webapp that displays these sayings in neat and interesting ways.
 
+##Important Note!
+If you have faker in your gemfile and you're getting an error about Faker.Hacker.say_something_smart then you might not have the most up to date version. Run bundle update and it should fix this issue.
+
 ##Release 0
 So first thing's first, your client wants you to have a main page that has three buttons on it - "Company", "Hacker", and "Say Something!". When you click "Say Something!" your client wants the resulting Faker saying to appear on the main page (in a box above all three buttons). 
 
