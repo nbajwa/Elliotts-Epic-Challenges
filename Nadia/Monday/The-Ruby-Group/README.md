@@ -11,3 +11,6 @@ To begin you have to get your associations straight, your client has specified a
 * A group has an owner, members, and a topic
 * A user can be in many meetings
 * A meeting has a leader, attendees, and a meeting time
+* A User has all of the groups they own, the groups they're in, the meetings they lead, the meetings they attend, and an Email/Password for log in
+
+##Release 1
