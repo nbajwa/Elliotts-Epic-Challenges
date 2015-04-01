@@ -23,3 +23,10 @@ end
     user.user_meetings.create(:attendee => user, :meeting => Meeting.all.sample)
   end
 end
+
+
+  Meeting.all.each do|meeting|
+    meeting.group = Group.all.sample
+    meeting.save
+  end
+
